@@ -1,0 +1,192 @@
+*{
+  box-sizing: border-box;
+}
+
+
+@font-face{
+  font-family: sfpro_regular;
+  src: url(../fonts/SFProDisplay-Regular.woff) format("woff");
+}
+@font-face{
+  font-family: Merriweather;
+  src: url(../fonts/Merriweather-Light.woff) format("woff");
+}
+@font-face{
+  font-family: Bosch_Regular;
+  src: url(../fonts/BoschSerif-Regular.woff) format("woff");
+}
+@font-face{
+  font-family: Essonnes_Regular ;
+  src: url(../fonts/EssonnesDisplay-Regular.woff) format("woff");
+}
+@font-face{
+  font-family: Droid_Serif ;
+  src: url(../fonts/DroidSerif.woff) format("woff");
+}
+@font-face{
+  font-family: Monomakh ;
+  src: url(../fonts/MonomakhUnicodeTT.woff) format("woff");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.logo{
+  font-family: 'Merriweather';
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);;
+  text-transform: uppercase;
+  line-height: 1.2;
+  border-radius: 12px;
+  background-color: rgb(179, 177, 177);
+  padding: 22px 20px 20px 22px;
+  margin-left: -10px;
+}
+
+.container{
+  width: 1280px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+body {
+  background: url(../img/bg.png);
+  font-family: Monomakh;
+}
+
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li{
+  display: inline;
+  margin: 0 25px;
+  font-size: 18px;
+  font-family: "sfpro-regular";
+  color: rgb(227, 219, 213);;
+  line-height: 1.714;
+}
+nav li a {
+  color: inherit;
+  text-decoration: unset;
+  font-family: "sfpro-regular";
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 70px;
+  font-size: 80px;
+  font-family: Monomakh;
+}
+h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 50px;
+  font-family: Monomakh;
+}
+.main_button{
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+button.main_button {
+  margin: 350px 640px;
+  color: rgb(227, 219, 213);
+  font-size: 30px;
+  font-family: Monomakh;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(204, 158, 124);
+  box-shadow: 0px 8px 21px 0px rgba(191, 150, 120, 1);
+  width: 259px;
+  padding: 22px 0 18px;
+  background-image: url(../img/button_musk.png);
+}

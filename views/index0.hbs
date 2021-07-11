@@ -1,0 +1,17 @@
+<h2>Today we have:</h2>
+
+{{#if tables.length}}
+<ul>
+  {{#each tables}}
+  <li>
+      <label>
+        <input type="checkbox">
+        <span>{{name}}</span>
+        <button class="btn btn-small">Save</button>
+      </label>
+  </li>
+  {{/each}}
+</ul>
+{{else}}
+<p>No drinks!</p>
+{{/if}}

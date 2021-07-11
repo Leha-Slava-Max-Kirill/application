@@ -1,0 +1,20 @@
+<h2>Сегодня в меню</h2>
+
+{{#if tables.length}}
+<ul>
+  {{#each tables}}
+      <label>
+        <span> 
+          название: {{name}} 
+          тип: {{type}}
+          описание: {{description}}
+          градус: {{degree}}%
+          объем: {{volume}}
+          цена: {{price}} <br>
+        </span>
+      </label>
+  {{/each}}
+</ul>
+{{else}}
+<p>Напитков нет</p>
+{{/if}}
